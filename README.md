@@ -5,22 +5,12 @@ PBL Fase 3 Capítulo 1 - Banco de Dados Oracle FarmTech Solutions
 ## Descrição
 Este repositório contém os prints das consultas SQL realizadas no banco de dados Oracle da atividade da Fase 3.
 
-## Estrutura dos arquivos
-
-Pasta: imprimir/
-
-- 01-inicio.png
-- 02-irrigacao-alta.png
-- 03-media-umidade.png
-- 04-total-registros.png
-- 05-tipos-cultura.png
-
 ## Impressões das consultas
 
 ### 1. Consulta inicial da base
 Objetivo: visualizar todos os registros importados no banco.
 
-![Consulta inicial](imprimir/01-inicio.png)
+![Consulta inicial](imprimir/01%20INÍCIO)
 
 ---
 
