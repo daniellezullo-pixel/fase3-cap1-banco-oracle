@@ -15,35 +15,40 @@ Pasta: imprimir/
 - 04-total-registros.png
 - 05-tipos-cultura.png
 
-Consultas realizadas
+## Impressões das consultas
 
-1. Consulta inicial da base
-SELECT * FROM DADOS_IRRIGACAO;
-
+### 1. Consulta inicial da base
 Objetivo: visualizar todos os registros importados no banco.
 
-2. Consulta de irrigação alta
-SELECT *
-FROM DADOS_IRRIGACAO
-WHERE NIVEL_IRRIGACAO = 'Alto';
+![Consulta inicial](imprimir/01-inicio.png)
 
+---
+
+### 2. Consulta de irrigação alta
 Objetivo: identificar culturas com irrigação alta.
 
-3. Média de umidade
-SELECT AVG(UMIDADE) AS MEDIA_UMIDADE
-FROM DADOS_IRRIGACAO;
+![Irrigação alta](imprimir/02-irrigacao-alta.png)
 
+---
+
+### 3. Média de umidade
 Objetivo: calcular a média da umidade registrada.
 
-4. Total de registros
-SELECT COUNT(*) AS TOTAL_REGISTROS
-FROM DADOS_IRRIGACAO;
+![Média da umidade](imprimir/03-media-umidade.png)
 
+---
+
+### 4. Total de registros
 Objetivo: verificar a quantidade total de dados importados.
 
-5. Tipos de cultura distintos
-SELECT DISTINCT TIPO_CULTURA
-FROM DADOS_IRRIGACAO;
+![Total de registros](imprimir/04-total-registros.png)
+
+---
+
+### 5. Tipos de cultura distintos
+Objetivo: listar os tipos de cultura sem repetição.
+
+![Tipos de cultura](imprimir/05-tipos-cultura.png)
 
 Objetivo: listar os tipos de cultura sem repetição.
 
