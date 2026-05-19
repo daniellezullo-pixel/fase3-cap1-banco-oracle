@@ -26,3 +26,6 @@ Pasta: imprimir/
 - Oracle SQL Developer
 - SQL
 - GitHub
+## Vídeo de apresentação
+
+Link do vídeo: https://youtu.be/F4QzTNTXk4Q
