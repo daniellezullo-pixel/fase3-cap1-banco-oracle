@@ -10,21 +10,21 @@ Este repositório contém os prints das consultas SQL realizadas no banco de dad
 ### 1. Consulta inicial da base
 Objetivo: visualizar todos os registros importados no banco.
 
-![Consulta inicial](imprimir/01-inicio.png)
+![Consulta inicial da base](imprimir/01%20INÍCIO)
 
 ---
 
 ### 2. Consulta de irrigação alta
 Objetivo: identificar culturas com irrigação alta.
 
-![Irrigação alta](imprimir/02-irrigacao-alta.png)
+![Consulta de irrigação alta](imprimir/02-irrigacao-alta.png)
 
 ---
 
 ### 3. Média de umidade
 Objetivo: calcular a média da umidade registrada.
 
-![Média da umidade](imprimir/03-media-umidade.png)
+![Média de umidade](imprimir/03-media-umidade.png)
 
 ---
 
@@ -38,8 +38,7 @@ Objetivo: verificar a quantidade total de dados importados.
 ### 5. Tipos de cultura distintos
 Objetivo: listar os tipos de cultura sem repetição.
 
-![Tipos de cultura](imprimir/05-tipos-cultura.png)
-
+![Tipos de cultura distintos](imprimir/05-tipos-cultura.png)
 
 
 Objetivo: listar os tipos de cultura sem repetição.
