@@ -10,7 +10,7 @@ Este repositório contém os prints das consultas SQL realizadas no banco de dad
 ### 1. Consulta inicial da base
 Objetivo: visualizar todos os registros importados no banco.
 
-![Consulta inicial](imprimir/01%20INÍCIO)
+![Consulta inicial](imprimir/01-inicio.png)
 
 ---
 
@@ -39,6 +39,8 @@ Objetivo: verificar a quantidade total de dados importados.
 Objetivo: listar os tipos de cultura sem repetição.
 
 ![Tipos de cultura](imprimir/05-tipos-cultura.png)
+
+
 
 Objetivo: listar os tipos de cultura sem repetição.
 
