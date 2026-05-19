@@ -15,12 +15,37 @@ Pasta: imprimir/
 - 04-total-registros.png
 - 05-tipos-cultura.png
 
-## Consultas realizadas
+Consultas realizadas
+
 1. Consulta inicial da base
+SELECT * FROM DADOS_IRRIGACAO;
+
+Objetivo: visualizar todos os registros importados no banco.
+
 2. Consulta de irrigação alta
-3. Média da umidade
+SELECT *
+FROM DADOS_IRRIGACAO
+WHERE NIVEL_IRRIGACAO = 'Alto';
+
+Objetivo: identificar culturas com irrigação alta.
+
+3. Média de umidade
+SELECT AVG(UMIDADE) AS MEDIA_UMIDADE
+FROM DADOS_IRRIGACAO;
+
+Objetivo: calcular a média da umidade registrada.
+
 4. Total de registros
+SELECT COUNT(*) AS TOTAL_REGISTROS
+FROM DADOS_IRRIGACAO;
+
+Objetivo: verificar a quantidade total de dados importados.
+
 5. Tipos de cultura distintos
+SELECT DISTINCT TIPO_CULTURA
+FROM DADOS_IRRIGACAO;
+
+Objetivo: listar os tipos de cultura sem repetição.
 
 ## Tecnologias utilizadas
 - Oracle SQL Developer
