@@ -9,8 +9,7 @@ Este repositório contém os prints das consultas SQL realizadas no banco de dad
 
 ### 1. Consulta inicial da base
 Objetivo: visualizar todos os registros importados no banco.
-
-![Consulta inicial da base](imprimir/01%20INÍCIO)
+![Consulta inicial](imprimir/001-início.png)
 
 ---
 
